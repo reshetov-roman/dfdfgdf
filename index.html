@@ -233,7 +233,17 @@ h1, h2, h3, h4, h5, h6 {
 .main-tables__shopCaption {
   padding-right: 15px;
 }
-
+.nested-accordion .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.inner-tables__header {
+    position: sticky;
+    top: 40px;
+    background-color: #fff;
+    z-index: 15;
+}
 .inner-tables__header {
   display: flex;
   justify-content: space-between;
@@ -676,19 +686,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media screen  and (min-width: 768px) {
-    .nested-accordion .sticky {
-        position: sticky;
-        top: 0;
-        z-index: 20;
-    }
-    .inner-tables__header {
-        position: sticky;
-        top: 40px;
-        background-color: #fff;
-        z-index: 15;
-    }
-}
 </style>
 
 
